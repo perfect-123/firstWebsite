@@ -1,4 +1,5 @@
 import React from "react";
+import Jullie from '../images/DaJulien.jpeg'
 import whatGif from '../images/what-confused.gif'
 export default function About() {
   return (
@@ -9,22 +10,22 @@ export default function About() {
             Hi, I'm what? cat!
           </h1>
           <p className="mb-8 leading-relaxed">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
-          incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud 
-          exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-           
+            Ah, King Julien, what a magnificent lemur I am! I am the most charismatic and charming leader of the lemurs in all of Madagascar.
+            My subjects adore me, and I am always the life of the party. With my unique dance moves and infectious energy, 
+            I bring joy and laughter to all who surround me. 
+
           </p>
           <p>
-          Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore 
-          eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, 
-          sunt in culpa qui officia deserunt mollit anim id est laborum. 
+            My crown sits atop my head with regal elegance, and my royal scepter
+            commands respect and obedience from all who see it. I am a true king, and my rule is absolute. Long live King Julien!
+
           </p>
         </div>
         <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
           <img
             className="object-cover object-center rounded"
             alt="hero"
-            src={whatGif}
+            src={Jullie}
           />
         </div>
       </div>
